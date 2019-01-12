@@ -1,0 +1,10 @@
+{
+  "name": "docker_node_app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "nightmare": "^3.0.1"
+  }
+}
