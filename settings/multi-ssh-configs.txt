@@ -1,0 +1,17 @@
+# ~/.ssh/config
+
+# Default GitHub user (joe)
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile /Users/joe/.ssh/id_rsa
+
+# Client user (client)
+Host github-client
+  HostName github.com
+  User git
+  IdentityFile /Users/joe/.ssh/id_rsa_client
+
+
+# git clone git@github.com:joe/my_repo.git
+# git clone git@github-client:client/his_repo.git
